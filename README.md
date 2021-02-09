@@ -1,6 +1,6 @@
 # 福利饭最新网址：
 
-https://fulifan.xyz
+https://fulifan8.net
 
 # 地址发布页
 
@@ -11,4 +11,3 @@ https://fulifan.pro
 https://linktr.ee/fulifan
 
 https://github.com/fulifan/url
-
