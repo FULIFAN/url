@@ -1,6 +1,6 @@
 # 福利饭最新网址：
 
-https://fulifan.be
+https://fulifan.life
 
 # 地址发布页
 
