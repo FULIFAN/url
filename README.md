@@ -1,6 +1,6 @@
 # 福利饭最新网址：
 
-https://fuli.sbs
+https://fuli2022.xyz
 
 # 地址发布页
 
