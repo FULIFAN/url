@@ -1,0 +1,124 @@
+/* Apply max width to main container for fluid width */
+.outerbox { max-width: 90% }
+
+/* Apply To All Responsive Layouts
+================================================== */
+@media only screen and (max-width: 959px) { 
+	
+	/*special hide class*/
+	.hide-all-devices { display: none }
+	
+	/*hide stuff*/
+	#navigation .searchform,
+	.main-menu-ul,
+	.entry-overlay { display: none }
+	
+	/*navigation*/
+	#navigation { padding: 0; border: 0; height: auto; line-height: normal; }
+	.slicknav_menu { display:block; }
+	
+	/*main*/
+	#wrap { padding: 0 }
+}
+
+/* #Tablet (Landscape) = Design for a width of 720px
+================================================== */
+@media only screen and (min-width:768px) and (max-width:1024px) { 
+	.hide-tablet-landscape { display: none }
+}
+
+/* #Tablet (Portrait) = Design for a width of 720px
+================================================== */
+@media only screen and (min-width: 768px) and (max-width: 959px) { 
+	
+	/*special hide class*/
+	.hide-tablet-portrait { display: none }
+	
+	/*removed fixed header*/
+	.fixed-header { position: relative !important; top: auto !important; left: auto !important; }
+	#wrap { padding-top: 0 !important }
+	
+	/*homepage with sidebar*/
+	.home-sidebar .loop-entry-meta li { display: block; float: none; margin-bottom: 5px; }
+	.home-sidebar .loop-entry-meta li:last-child { margin: 0 }
+	
+	/*footer*/
+	.footer-box { width: 226px; margin-right: 21px; }
+}
+
+/* Turn layout to 100%
+================================================== */
+@media only screen and (max-width: 850px) { 
+	#post,
+	#sidebar { width: 100% !important }
+}
+
+/* Mobile (Portrait) = Design for a width of 280px
+================================================== */
+@media only screen and (max-width: 767px) { 
+	
+	/*hide*/
+	.hide-mobile-portrait,
+	#single-nav,
+	#single-share h4 { display: none }
+	
+	/*removed fixed header*/
+	.fixed-header { position: relative !important; top: auto !important; left: auto !important; }
+	#wrap { padding-top: 0 !important }
+	
+	/*grid*/
+	#sidebar { width: 280px }
+	.wpex-row .col { width: 100% !important }
+	
+	/*main*/
+	#sidebar { margin-top: 30px; padding-top: 30px; border-top: 4px solid #ddd; }
+	
+	/*header*/
+	#header-top { display: block; text-align: center; }
+	#logo { float: none; }
+	#header-aside { float: none; padding-top: 5px; }
+	#header-social li { display: inline-block; float: none; }
+	#logo { text-align: center }
+	#logo a { display: inline-block; float: none; }
+	
+	/*blog*/
+	#related-posts .alignleft { max-width: 30% }
+	.related-entry-excerpt { display: none }
+	
+	/*search*/
+	.search-entry-text { width: 100%; margin-top: 25px; }
+	
+	/*footer*/
+	.footer-box { width: 100%; margin-right: 0; }
+	#footer-bottom,
+	#footer-menu { text-align: center }
+	#footer-menu { margin-top: 5px }
+	#copyright,
+	.footer-menu { width: 100%; float: none; }
+	.footer-menu { margin-top: 10px; text-align: center; }
+	#instagram-footer-wrap .instagram-footer-item { width: 20%; }
+	
+	/*comments*/
+	.commentlist span.reply { display: block; padding-top: 5px; }
+	.comment-meta .reply a { margin: 0; }
+	.commentlist .children { margin: 30px 0 0 }
+	.commentlist .children li { margin-left: 0 !important }
+	#commentform .comment-form-author label, #commentform .comment-form-url label, #commentform .comment-form-email label { float: none; }
+	.comment-respond p { margin: 0 0 10px; }
+	.comment-form-comment label { display: block; }
+
+}
+
+/* Woo Products turn into single column
+================================================== */
+@media only screen and (max-width: 500px) { 
+	.woocommerce ul.products li.product,
+	.woocommerce-page ul.products li.product { width: 100% !important; clear: both; margin-bottom: 20px !important }
+}
+
+/* Mobile (Landscape) = Design for a width of 440px
+================================================== */
+@media only screen and (min-width: 480px) and (max-width: 767px) { 
+	.hide-mobile-portrait { display: block }
+	.hide-mobile-landscape { display: none }
+}
