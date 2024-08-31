@@ -1,6 +1,6 @@
-# 福利饭最新网址：
+# 福利番最新网址：
 
-https://fuli2024.xyz
+https://fulifan.lol
 
 # 地址发布页
 
