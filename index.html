@@ -1,29 +1,88 @@
 <!DOCTYPE html>
 <html lang="zh-cmn-Hans-CN">
 <head>
-	<meta charset="UTF-8" />
-	<title>福利番永久网址</title>
-	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />    
-	<link href="//cdn.bootcdn.net/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css" rel="stylesheet" />
-	<link href="//cdn.bootcdn.net/ajax/libs/lxgw-wenkai-screen-webfont/1.7.0/lxgwwenkaiscreenr.min.css" rel="stylesheet" />
-	<link href="/style.css" rel="stylesheet" />
-	<link href="/responsive.css" rel="stylesheet" />
-	<script src="//cdn.bootcdn.net/ajax/libs/jquery/3.7.1/jquery.min.js" type="text/javascript"></script>
-	<script  src="//cdn.bootcdn.net/ajax/libs/jquery-migrate/3.4.1/jquery-migrate.min.js" type="text/javascript"></script>
-	<!--[if lt IE 9]><script src="//cdn.bootcdn.net/ajax/libs/html5shiv/3.7.2/html5shiv.min.js"></script><![endif]-->
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>福利番 | 回家的路</title>
+	<meta name="description" content="福利番永久网址，回家的路">
+	<meta name="keywords" content="福利番">
+	<link href='//fonts.font.im/css?family=Signika:400,300,600,700' rel='stylesheet' type='text/css'>
+	<link href="//cdn.bootcdn.net/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+	<link href="css/animation.css" rel="stylesheet" type="text/css" />
+	<link rel="stylesheet" href="css/main.css">
+	<link rel="icon" href="images/favicon.ico">
 </head>
-<body class="error404">
-<div id="wrap">	
-	<div id="main-content" class="outerbox clr">
-		<div id="error-page" class="container">
-			<h4><a href="https://fulifan.lol" rel="home">福利番最新网址</a></h4>
-			<p id="error-page-text">
-				<a href="https://fulifan.lol" rel="home">https://fulifan.lol</a>
-				<a href="https://fulifan.lol" rel="home">福利番</a>
-			</p>
+<body>
+	<div class="fix-wrp">
+		<div class="animate-wrp">
+			<div class="sky">
+				<div class="car-wheels"></div>
+				<div class="car">
+					<div class="msg"><b><span>等我!</span>我也要上福利番.</b></div>
+				</div>
+				<div class="car-wheels c1"></div>
+				<div class="car1 c1"></div>
+				<div class="cloud"></div>
+				<div class="cloud2"></div>
+				<div class="cloud1"></div>
+				<div class="grass1"></div>
+				<div class="grass"></div>
+				<div class="grass2"></div>
+				<div class="mountain"></div>
+				<div class="mountain1"></div>
+				<div class="tree"></div>
+				<div class="tree-front"></div>
+				<div class="road"></div>
+				<div class="road-front"></div>
+			</div>	
 		</div>
-		<div class="clear"></div>
 	</div>
-</div>
+	<div class="main-wrapper">
+		<div class="container">
+			<div class="cloud-message">
+				<div class="message-wrp">
+					<div class="message">
+						<strong class="t1">福利番</strong>
+						<strong class="t2">永久地址发布页</strong>
+						<p class="t3">最新网址：https://fulifan.lol</p>
+					</div>
+				</div>
+				<img src="images/cloud-large1.png" alt="cloud" />
+			</div>
+			<div class="nav-wrapper">
+				<a href="//fulifan.lol">福利番</a>
+				<a href="//t.me/fulifan">Telegram</a>
+				<a href="mailto:fulifan8@hotmail.com">Email</a>
+			</div>
+			<div class="social-links">
+				<a href="//t.me/fulifan"><i class="fa fa-telegram"></i></a>
+			</div>
+			<p class="copyrights">Copyright © 2020.Art All Right Reserved</p>
+		</div>
+	</div>
+	<script src="//cdn.bootcdn.net/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+	<script>
+		function mainWindow(){
+			$(".main-wrapper").css({
+				width: $('html').width(),
+				height: $('html').height() > $(window).height() ? $('html').height() : $(window).height()  
+			});
+		}
+		function animateWindow(){
+			$(".animate-wrp").css({
+				width: $(window).width(),
+				height: $('.main-wrapper').height()
+			});
+		}
+		$(document).ready(function() {
+			mainWindow();
+			animateWindow();
+		});
+		$(window).resize(function(event) {
+			mainWindow();
+			animateWindow();
+		});
+	</script>
 </body>
 </html>
