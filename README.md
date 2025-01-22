@@ -1,6 +1,6 @@
 # 福利番最新网址：
 
-https://fulifan.sbs
+https://fulifan.site
 
 # 地址发布页
 
